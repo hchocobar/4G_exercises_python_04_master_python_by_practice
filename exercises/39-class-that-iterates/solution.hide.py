@@ -7,4 +7,4 @@ def putNumbers(n):
             yield j
 
 for i in reverse(100):
-    print i
+    print(i)

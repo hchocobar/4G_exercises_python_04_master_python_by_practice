@@ -1,5 +1,8 @@
-from operator import itemgetter, attrgetter
-def sort_tuples_ascending(tuples):
-    l = []
-    l.append(tuple(tuples.split(",")))
-    return (sorted(l, key=itemgetter(0,1,2)))
+data = [('Tom', 19, 80),
+        ('John', 20, 90),
+        ('Jony', 17, 91),
+        ('Jony', 17, 93),
+        ('Jason', 21, 85)]
+
+data.sort()
+print(data)  # Salida: [('Jason', 21, 85), ('John', 20, 90), ('Jony', 17, 91), ('Jony', 17, 93), ('Tom', 19, 80)]

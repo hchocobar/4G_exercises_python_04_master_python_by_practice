@@ -7,3 +7,6 @@ def divisable_binary(text):
             value.append(p)
 
     return (','.join(value))
+
+
+print(divisable_binary('0100,0011,1010,1001'))
